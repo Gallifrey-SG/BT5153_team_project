@@ -1,0 +1,7 @@
+{
+  "raw_data_dir": "data/raw/",
+  "processed_data_dir": "data/processed/",
+  "domain_specific_data_dir": "data/domain_specific/",
+  "model_save_dir": "models/saved_models/",
+  "validation_data_file": "data/processed/validation_set.csv"
+}

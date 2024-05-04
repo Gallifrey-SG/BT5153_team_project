@@ -1,0 +1,38 @@
+{
+    "xlnet": {
+      "text_only": {
+        "learning_rate": 0.0001,
+        "batch_size": 6,
+        "num_epochs": 3
+      },
+      "text_with_metafeatures": {
+        "learning_rate": 0.0001,
+        "batch_size": 6,
+        "num_epochs": 3
+      }
+    },
+    "distilbert": {
+      "text_only": {
+        "learning_rate": 0.00005,
+        "batch_size": 6,
+        "num_epochs": 3
+      },
+      "text_with_metafeatures": {
+        "learning_rate": 0.00005,
+        "batch_size": 6,
+        "num_epochs": 3
+      }
+    },
+    "gpt2": {
+      "text_only": {
+        "learning_rate": 0.00005,
+        "batch_size": 4,
+        "num_epochs": 3
+      },
+      "text_with_metafeatures": {
+        "learning_rate": 0.00005,
+        "batch_size": 4,
+        "num_epochs": 3
+      }
+    }
+  }
