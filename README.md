@@ -31,13 +31,19 @@ git clone https://github.com/Gallifrey-SG/BT5153_team_project.git
 
 ## Running the Application
 
-Navigate to the project directory and run the Flask application using:
+The model file is not in the current repo due to file size limit, please download the model from below link and put under app folder
+
+https://drive.google.com/file/d/1-3r-7lMji_pxNo9CBZdA_g_DzRQ-J43z/view?usp=sharing
+
+Then navigate to the project directory and run the Flask application using:
 
 ```bash
 python app.py
 ```
 
 The application will be accessible at `http://127.0.0.1:5000` on your web browser.
+
+If you are interest in other candidate models and comparison, please contact us.
 
 ## Usage
 1. **Start the Application**: Open your terminal, navigate to the project folder, and run `python app.py`.
@@ -56,3 +62,5 @@ Contributions to the AI Text Prediction Tool are welcome! Please consider the fo
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
+
+Project Link: https://github.com/Gallifrey-SG/BT5153_team_project
