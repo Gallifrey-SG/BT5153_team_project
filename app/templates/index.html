@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Text Prediction Tool</h1>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <textarea name="text" rows="4" cols="50" placeholder="Enter text here..."></textarea>
+            <br>
+            <input type="file" name="file" class="file-input">
+            <br><br>
+            <button type="submit" class="predict-button">Predict</button>
+        </form>
+        {% if prediction %}
+            <div class="prediction-result">
+                <h2>Prediction: {{ prediction }}</h2>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
